@@ -19,7 +19,7 @@ public class CustomerController {
     public String getCustomerById(@PathVariable int customerId) {
         var customer = customerService.getCustomerById(customerId);
         if (customer != null) {
-            return customer.firstName;
+            return customer.getFirstName() + " " + customer.getLastName();
         } else {
             return "Customer not found";
         }
