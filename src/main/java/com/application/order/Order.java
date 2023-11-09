@@ -1,4 +1,4 @@
-package com.order.model;
+package com.application.order;
 
 public class Order {
     Long orderId;

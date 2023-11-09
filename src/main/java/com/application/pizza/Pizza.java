@@ -1,4 +1,4 @@
-package com.pizza.model;
+package com.application.pizza;
 
 public class Pizza {
     Long pizzaId;
